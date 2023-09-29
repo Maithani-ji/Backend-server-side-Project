@@ -1,0 +1,40 @@
+
+Product with REVIEWS
+
+
+
+product collection
+{
+
+    name 'asff'
+    price 23
+    desc 'sadsdbb'
+    img 'sfsxcsa'
+    reviews :[1,2] which will have id'S of reviews not the actual reviews i 'referencing' from reviews model
+
+
+
+}
+
+
+reviews collection
+
+[
+    {
+        id 1
+        rating 3
+        comment 'asfsafsaf'
+    }
+    {
+        ...
+    }
+    {
+        ....    
+    }
+]
+
+----------FLOW OF code
+Submit form --> productid,review(rating,comments)
+1 find a product with given product id 
+2 create a actual review in a reiview collection
+3 push the review into product.reiview array
